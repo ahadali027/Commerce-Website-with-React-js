@@ -46,8 +46,8 @@ function TopSeller() {
         }}
         className="mySwiper relative flex items-center cursor-grab"
       >
-        {TopSellerData.map(({ img, title, price }) => (
-          <SwiperSlide className="">
+        {TopSellerData.map(({ img, title, price }, ind) => (
+          <SwiperSlide key={ind} className="">
             <TopSellerCards
               className=" z-10"
               img={img}

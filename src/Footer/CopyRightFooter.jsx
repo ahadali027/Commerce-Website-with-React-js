@@ -1,4 +1,5 @@
 import React from "react";
+import img_footer from "./FooterImg/payment_icon.svg";
 
 function CopyRightFooter() {
   return (
@@ -7,11 +8,7 @@ function CopyRightFooter() {
         <p className="text-white font-medium text-justify">
           © 2023 Miniture All rights reserved. Designed by Novaworks
         </p>
-        <img
-          className="w-72"
-          src="../../public/Footer/payment_icon.svg"
-          alt="this is footer img"
-        />
+        <img className="w-72" src={img_footer} alt="this is footer img" />
       </div>
     </>
   );

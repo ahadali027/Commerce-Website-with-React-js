@@ -6,8 +6,6 @@ function Offers() {
   return (
     <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 max-w-7xl mx-auto px-10 mt-7 ">
       {OffersData.map(({ title, heading, Icon }, ind) => {
-        // console.log(title, icon);
-
         return (
           <Offercard key={ind} Icon={Icon} title={title} heading={heading} />
         );

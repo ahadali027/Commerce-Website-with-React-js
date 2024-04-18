@@ -3,8 +3,6 @@ import { FaRegMoneyBill1 } from "react-icons/fa6";
 import { CgSupport } from "react-icons/cg";
 import { MdOutlinePayment } from "react-icons/md";
 
-console.log(FaRegMoneyBill1);
-
 export const OffersData = [
   {
     Icon: FaShippingFast,

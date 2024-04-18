@@ -1,6 +1,10 @@
+import img_1 from "./Blogs/m8-blog-01.jpg";
+import img_2 from "./Blogs/m8-blog-02.jpg";
+import img_3 from "./Blogs/m8-blog-03-300x200.jpg";
+
 export const BlogsData = [
   {
-    img: "../../public/Blogs/m8-blog-01.jpg",
+    img: img_1,
     publisher: "By admin",
     date: "October 24,2023",
     title: "Why the Toteme Striped Sweater is a Best Seller",
@@ -9,7 +13,7 @@ export const BlogsData = [
     button: "Read more",
   },
   {
-    img: "../../public/Blogs/m8-blog-02.jpg",
+    img: img_2,
     publisher: "By admin",
     date: "October 24,2023",
     title: "What to Buy During the Shopbop Style Event",
@@ -18,7 +22,7 @@ export const BlogsData = [
     button: "Read more",
   },
   {
-    img: "../../public/Blogs/m8-blog-03-300x200.jpg",
+    img: img_3,
     publisher: "By admin",
     date: "October 24,2023",
     title: "What to Buy During the Shopbop Style Event",

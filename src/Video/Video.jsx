@@ -1,14 +1,11 @@
 import React from "react";
 import { IoPlayOutline } from "react-icons/io5";
+import img from "./Video/m8_video_bg.jpeg";
 
 function Video() {
   return (
     <div className="max-w-7xl  mx-auto flex justify-center relative mt-5 overflow-hidden">
-      <img
-        className="lg:rounded-2xl relative "
-        src="../../public/Video/m8_video_bg.jpeg"
-        alt=""
-      />
+      <img className="lg:rounded-2xl relative " src={img} alt="" />
       <div className="max-w-[30rem] absolute lg:mt-10 md:mt-8 mt-2  w-full flex flex-col px-3 lg:gap-5 md:gap-3 gap-1 items-center ">
         <h2 className="lg:text-4xl md:text-4xl text-2xl mt-1 font-bold text-center ">
           Timeless Beauty The Vintage Classic Revival

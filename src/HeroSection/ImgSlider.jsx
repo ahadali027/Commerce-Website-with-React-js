@@ -1,12 +1,13 @@
 import React from "react";
+import slide2 from "./herosectionimg/m8_slide_02.jpg";
 
 function ImgSlider() {
   return (
     <div className="relative flex-grow h-full border w-full lg:max-w-[70%] overflow-hidden aspect-[16/9]  lg:aspect-video rounded-lg">
       <img
         className="absolute inset-0 h-full w-full object-cover object-top"
-        src="../../public/herosection img/m8_slide_02.jpg"
-        alt=""
+        src={slide2}
+        alt="Ni lgi"
       />
 
       <div className="relative z-10  max-w-lg lg:m-10 md:m-7 m-5  ">

@@ -51,8 +51,11 @@ export default function CategorySlider() {
       modules={[Navigation]}
       className="mySwiper relative "
     >
-      {CategoryCarddata.map(({ img, title }) => (
-        <SwiperSlide className="flex justify-center items-center relative">
+      {CategoryCarddata.map(({ img, title }, ind) => (
+        <SwiperSlide
+          key={ind}
+          className="flex justify-center items-center relative"
+        >
           <MyCardCategory img={img} title={title} />
         </SwiperSlide>
       ))}

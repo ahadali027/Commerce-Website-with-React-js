@@ -4,6 +4,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import React, { useState } from "react";
 import { NavLinks } from "./PcNav";
+import logo from "./logo/logo.svg";
 
 import { CiMenuFries } from "react-icons/ci";
 import MobileNav from "./MobileNav";
@@ -14,7 +15,7 @@ function Navbar() {
   return (
     <header className="flex justify-around items-center pt-5 max-w-7xl mx-auto ">
       <CiMenuFries onClick={() => setIsOpen(true)} className="lg:hidden" />
-      <img src="../../public/imageye/logo.svg" alt="" />
+      <img src={logo} alt="" />
       <NavLinks />
       <div className="flex gap-6">
         <IoSearch className="hover:text-yellow-500 transition-colors" />

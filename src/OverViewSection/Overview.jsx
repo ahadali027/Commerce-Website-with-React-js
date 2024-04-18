@@ -1,4 +1,6 @@
 import React from "react";
+import img1 from "./OverviewSection/m8_collection_01 (1).jpeg";
+import img2 from "./OverviewSection/m8_collection_021.jpeg";
 
 function Overview() {
   return (
@@ -6,7 +8,7 @@ function Overview() {
       <div className="relative overflow-hidden rounded-3xl ">
         <img
           className=" rounded-2xl w-[39rem] hover:scale-110 transition-all duration-700"
-          src="../../public/OverviewSection/m8_collection_01 (1).jpeg"
+          src={img1}
           alt=""
         />
         <h3 className="rounded-r-full absolute top-0 bg-white px-7 lg:w-72 md:w-52 lg:py-3 md:py-3 py-2  lg:text-lg text-base  ">
@@ -20,7 +22,7 @@ function Overview() {
         <div className="relative overflow-hidden rounded-3xl">
           <img
             className="rounded-2xl w-full hover:scale-110 transition-all duration-700"
-            src="../../public/OverviewSection/m8_collection_021.jpeg"
+            src={img2}
             alt=""
           />
           <h3 className="rounded-r-full absolute bottom-0  bg-white px-7 lg:w-72  lg:py-3 md:py-3 py-2  lg:text-lg text-base ">
