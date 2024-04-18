@@ -61,10 +61,10 @@ export default function CategorySlider() {
       ))}
 
       <div className="flex justify-between  ">
-        <button className="absolute top-1/2 z-10 -translate-y-1/2  swiper-prev-btn bg-yellow-500 p-2  rounded-full">
-          <FaArrowLeftLong className="text-white" />
+        <button className="absolute top-28 left-5  z-10 swiper-prev-btn bg-yellow-500 p-2  rounded-full">
+          <FaArrowLeftLong className="text-white " />
         </button>
-        <button className="swiper-next-btn absolute top-1/2 z-10 right-0 -translate-y-1/2 bg-yellow-500 p-2  rounded-full">
+        <button className="swiper-next-btn absolute top-1/2 z-10 right-5 -translate-y-1/2 bg-yellow-500 p-2  rounded-full">
           <FaArrowRight className="text-white" />
         </button>
       </div>

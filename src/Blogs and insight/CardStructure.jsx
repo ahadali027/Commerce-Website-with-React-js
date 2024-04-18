@@ -2,10 +2,10 @@ import React from "react";
 
 function CardStructure({ img, publisher, date, title, about, button }) {
   return (
-    <div className="max-w-7xl w-96 mx-auto ">
-      <div className="w-96 overflow-hidden cursor-pointer rounded-2xl">
+    <div className="w-full max-w-96  mx-auto ">
+      <div className=" overflow-hidden cursor-pointer rounded-2xl">
         <img
-          className="w-96 hover:scale-110 transition-all duration-700"
+          className="w-full max-w-96 hover:scale-110 transition-all duration-700"
           src={img}
           alt=""
         />
